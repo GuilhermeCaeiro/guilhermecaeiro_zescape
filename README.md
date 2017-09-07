@@ -3,4 +3,4 @@ Simple website and small HTML5/JS game demo created in 2012 as a final assignmen
 
 Obs. 1: Please note that this game has no relation with other games using "ZEscape" as their name. Also, I don't make any claims over that title.
 
-Obs. 2: The code (variables and function's names, comments and etc) and the text present in the website are written in Portuguese (pt-BR).
+Obs. 2: The code (variables and function's names, comments and etc) and the text present in the website are written in a mix of Portuguese (pt-BR) and English.
