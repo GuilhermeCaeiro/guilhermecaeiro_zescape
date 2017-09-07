@@ -1,0 +1,258 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+	background-color: #ccc;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 14px;
+	line-height: 18px;
+	
+	width: 1000px;
+	height: auto;
+	
+	margin: 0 auto 10px;
+}
+
+/* Configuração do Container do corpo do site 
+
+#container{
+	width: 1000px;
+	height: auto;
+	background: #000;
+	margin: 10px auto;
+	padding: 0px;
+}
+*/
+/* Configuração do logotipo */
+
+#top{
+	width: 1000px;
+	height: 140px;
+}
+
+#logo{
+	width: 400px;
+	height: 140px;
+	/* background-color: #bbb; */
+	float:left;
+}
+
+/* Configuração do menu */
+
+#menu{
+	width: 600px;
+	height: 40px;
+	/*background-color: #aaa;*/
+	font-size:16px;
+	float:right;
+	margin: 50px 0 0 0;
+	
+}
+
+#menu ul{
+	list-style: none;
+	width: 515px;
+	margin: auto;
+}
+
+#menu ul li{
+	float: left;
+	margin: 0px 3px 0px 0px;
+	padding: 0px;
+}
+
+#menu ul li a{
+	display: block;
+	padding: 0 20px;
+	height: 40px;
+	background-color: #bbb;
+	text-decoration: none;
+	border-radius: 15px;
+}
+
+#menu ul li a p{
+	padding-top: 11px;
+	color: #c00;	
+	font-family: 'Finger Paint', cursive;
+	font-size:15px;
+}
+
+#menu ul li a:hover{
+	#text-decoration: none;
+	background-color: #ddd;
+}
+
+#menu ul li a:hover p{
+	color: #f00;
+}
+
+
+/* Configuração do SlideShow */
+
+.slides_container {
+	width: 800px;
+	height:320px;
+	margin: 30px 100px 5px 100px; 
+}
+.slides_container div {
+	width:800px;
+	height:320px;
+	display:block;
+}
+
+.slides_container div img {
+	width:800px;
+	height:320px;
+}
+
+.pagination {
+	margin: 10px auto 35px;
+	width:100px;
+	#height:26px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/* Configuração do article */
+
+#conteudo{
+	width: 900px;
+	margin: 10px 50px 0px 50px;	
+	/*background-color: #bbb; */
+	float:left;
+}
+
+.cabecalho{
+	padding: 5px 5px 5px 5px;
+	font-size: 14px;
+	background-color: #bbb;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.cabecalho a{
+	text-decoration: none;
+	color: #000;
+}
+
+.contentsection {
+	padding: 5px 5px 5px 5px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #ddd;
+	margin-bottom: 10px;
+}
+
+
+
+.content {
+	
+}
+
+/* Configuração do aside
+
+#latdireita{
+	width: 295px;
+	height:250px;
+	margin: 10px 0 0 5px;
+	background-color: #777;
+	float:left;
+}
+*/
+
+/* Configuração do sobre.html (informações do jogo) */
+
+#container{
+	width: 1000px;
+	height: auto;
+	background: #ccc;
+	margin: 10px auto;
+	padding: 0px;
+}
+
+#sobre{
+	width: 900px;
+	height: auto;
+	margin: 30px auto 10px;
+}
+
+.infoheader{
+	padding: 5px 5px 5px 5px;
+	font-size: 17px;
+	background-color: #bbb;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.infosection{
+	padding: 5px 5px 5px 5px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #ddd;
+	margin-bottom: 10px;
+}
+
+#divesquerda{
+	float:left;
+	width: 445px;
+	height: 280px;
+	text-align: center;
+}
+
+#divdireita{
+	float:right;
+	float:left;
+	width: 445px;
+	height: 280px;
+	text-align: center;
+}
+
+/* Configuração da div de imagens em videos */
+
+.imagemvideo{
+	margin: 10px;
+	
+}
+
+/* Configuração do footer */
+
+#rodape{
+	width: 1000px;
+	height: 25px;
+	margin: 10px auto;
+	/*background-color: #aaa;*/
+	float:left;
+}
+
+#rodape div{
+	width: 1000px;
+	height: 25px;
+}
+
+#rodape div p{
+	margin:3px auto;
+	text-align: center;
+}
+
